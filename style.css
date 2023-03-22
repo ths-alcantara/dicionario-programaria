@@ -1,0 +1,89 @@
+body {
+    font-family: Open, sans-serif;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+section {
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #000;
+    vertical-align: top;
+    max-height: 100%;
+}
+
+img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+details p {
+    padding: 0 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #777;
+}
+
+@media (max-width: 768px) { 
+    
+    header {
+        margin-bottom: 20px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .card {
+        display: block;
+        margin: 20px 10px;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+
+    details {
+        width: 100%;
+    }
+
+    summary {
+        font-size: 16px;
+    }
+
+    details p {
+        font-size: 14px;
+    }
+}
